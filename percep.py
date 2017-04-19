@@ -16,7 +16,6 @@ maxIterations = 1000
 #Dataset parsing as training set
 def readData():
     global inputs, trainingRows, testRows;
-
     input =  fileinput.input();
     state = 0
     countRows = 0;
